@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>- CodeApex -</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">CodeApex</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#product">Projects</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="nav__search" id="nav-search">
+        <input type="text" placeholder="Search" />
+        <span><i class="ri-search-2-line"></i></span>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/mainpage.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>"Here's all your Projects"</h1>
+          <p>
+            The Ultimate Project Marketplace:<br>Thrive with Our Community
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container deals__container">
+      <div class="deals__card">
+        <h2 class="section__header">New Projects</h2>
+        <p>New & Unique projects on this platform !</p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-cash-line"></i></span>
+        <h4>Cashback</h4>
+        <p>Earn a 5% cashback reward on every project purchase you make !</p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-calendar-schedule-line"></i></span>
+        <h4>Full Source Codes</h4>
+        <p>
+          Take advantage of full source code available on this website !
+        </p>
+      </div>
+      <div class="deals__card">
+        <span><i class="ri-money-rupee-circle-line"></i></span>
+        <h4>Save money</h4>
+        <p>
+          Discover unbeatable prices and save big money !
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__header">
+        <div>
+          <h2 class="section__header">About us</h2>
+          <p class="section__description">
+            Our passion for exceptional projects drives us to curate the
+            best pieces for every client.
+          </p>
+        </div>
+        <button class="about__btn" id="whatsapp-btn">Chat with us</button>
+      </div>
+      <div class="about__content">
+        <div class="about__image">
+          <img src="assets/aboutus.jpg" alt="about" />
+        </div>
+        <div class="about__grid">
+          <div class="about__card">
+            <h3>1.</h3>
+            <h4>Who we are</h4>
+            <p>
+              Community of all numerous software developers !
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>2.</h3>
+            <h4>What do we do</h4>
+            <p>
+              Guide & provide unique projects to all !
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>3.</h3>
+            <h4>How do we help</h4>
+            <p>Use our skills to create amazing projects !</p>
+          </div>
+          <div class="about__card">
+            <h3>4.</h3>
+            <h4>Create success story</h4>
+            <p>
+              With access to online learning projects & it's source codes
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container product__container" id="product">
+      <h2 class="section__header">Projects</h2>
+      <div class="product__grid">
+        <div class="product__card">
+          <h4>Java</h4>
+          <p>Souce codes</p>
+          <img src="assets/javap.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>HTML & CSS</h4>
+          <p>Zip files</p>
+          <img src="assets/htmlp.png" alt="product" />
+        </div>
+        <div class="product__card">
+          <h4>Javascript</h4>
+          <p>React JS files</p>
+          <img src="assets/jsp.png" alt="product" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container">
+      <div class="client__content">
+        <h2 class="section__header">- Reviews -</h2>
+        <p class="section__description">
+          "High quality projects & with detailed Source codes."
+        </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <img src="assets/user-1.jpg" alt="user" />
+                <div>
+                  <h4>Yash Satpute</h4>
+                  <h5>Final Year Student</h5>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">project.store</a>
+          </div>
+          <p>
+            Join us in transforming projects into high-end softwares.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-pinterest-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Payrol</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul class="footer__links">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Cancelation Policy</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
